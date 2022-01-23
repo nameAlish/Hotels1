@@ -1,0 +1,90 @@
+body{
+   	background: url(../img/1.jpg) no-repeat center center fixed;
+   	background-size: cover;
+   }
+
+.group{
+position: absolute;
+width: 400px;
+height:625px;
+left: 0px;
+top: 0px;
+bottom:0px;
+
+background: rgba(85, 252, 202, 0.7);
+border-radius: 0px 40px 40px 3px;
+text-align: center;
+
+}
+input{
+	margin-bottom: 25px;
+
+
+}
+input[type="number"],input[type="date"]{
+	width: 125px;
+	height: 30px;
+	background: #FFE146;
+	border:3px solid #FFE146;
+	border-radius: 30px;
+	margin-top:20px; 
+
+}
+textarea{
+	width: 300px;
+	height:200px;
+	border:0;
+	border-radius: 10px;
+	
+}
+button{
+	background:#0AFF05;
+	width: 70px;
+	height: 40px;
+	border-radius: 30px;
+	border:3px solid #0AFF05;
+
+}
+button:hover{
+	background:#fff;
+}
+input:hover{
+	background: #fff;
+}
+button1 {
+    cursor: pointer;
+    padding: 10px 30px;
+    height: 50px;
+    color: #fff;
+    background: #00ff7f;
+    border-radius: 20px/20px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+}
+button1:hover {
+    opacity: .80;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.button1{
+    left: 20%;
+    margin-top:30px;
+    position: fixed;
+}
+
+.button1 a{
+    
+    text-decoration:none;
+    color:black;
+    padding: 10px 30px;
+    background-color:#0AFF05;
+    font-size:20px;
+    border-radius: 20px;
+    
+
+ }
+ .button1 a:hover{
+    background-color: #4143b0;
+ }

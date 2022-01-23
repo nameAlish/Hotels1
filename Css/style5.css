@@ -1,0 +1,68 @@
+body{
+   	background: url(../img/ti.png) no-repeat center center fixed;
+   	background-size: cover;
+   }
+.group{
+	position: absolute;
+width: 400px;
+height:625px;
+left: 435px;
+top: 0px;
+
+
+background: rgba(85, 252, 202, 0.7);
+border-radius: 40px 40px 40px 40px;
+text-align: center;
+}
+input{
+	background:#6880FD;
+	border: 1px solid black;
+	border-radius: 30px;
+	width: 300px;
+	height: 25px;
+	
+}
+
+.kard{
+margin-top: 200px;
+}
+input:hover{
+	background:#fff;
+}
+button1 {
+    cursor: pointer;
+    padding: 10px 30px;
+    height: 50px;
+    color: #fff;
+    background: #00ff7f;
+    border-radius: 20px/20px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+}
+button1:hover {
+    opacity: .80;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.button1{
+    left: 43%;
+    margin-top:30px;
+    position: fixed;
+}
+
+.button1 a{
+    
+    text-decoration:none;
+    color:black;
+    padding: 10px 30px;
+    background-color:#0AFF05;
+    font-size:20px;
+    border-radius: 20px;
+    
+
+ }
+ .button1 a:hover{
+    background-color: #4143b0;
+ }
