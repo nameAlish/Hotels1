@@ -1,2 +1,2 @@
-# Hotels1
+# Hotel
 hotels
